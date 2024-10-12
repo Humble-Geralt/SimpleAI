@@ -1,0 +1,9 @@
+simple_ai:
+  debug: ${DEBUG:-true}
+
+base_model:
+  model_type: ${MODEL_TYPE:-ChatGpt}
+  api_key: ${API_KEY:-abc123}
+  completion_model: ${COMPLETION_MODEL:-gpt-3.5-turbo}
+  base_url: ${BASE_URL:-https://api.openai.com/v1}
+
